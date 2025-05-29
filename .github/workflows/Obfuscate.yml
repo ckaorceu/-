@@ -30,7 +30,7 @@ jobs:
 
       - name: 下载 BPB worker.js
         run: |
-          wget -O origin.js https://github.com/ACG-Q/BPB-Worker-Panel-CryptDistro/blob/main/_worker.js
+          wget -O origin.js https://raw.githubusercontent.com/ACG-Q/BPB-Worker-Panel-CryptDistro/refs/heads/main/_worker.js
 
       - name: 混淆 BPB worker.js
         run: |
